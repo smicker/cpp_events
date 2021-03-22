@@ -1,0 +1,16 @@
+*.user
+.idea
+cmake-build*
+build/
+
+.vscode/*
+CMakeCache.txt
+CMakeFiles/
+DroneController.cbp
+Makefile
+cmake_install.cmake
+.directory./html
+./latex
+html
+
+venv/
