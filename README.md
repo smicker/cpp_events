@@ -1,12 +1,12 @@
 # cpp_helloworld
 A basic helloworld program in c++
 
-Create build directory
+### Create build directory:
 mkdir build
 
-Compile this with:
+### Compile this with:
 g++ helloworld.cpp -o ./build/helloworld
 
-Execute this with:
+### Execute this with:
 ./build/helloworld
 
