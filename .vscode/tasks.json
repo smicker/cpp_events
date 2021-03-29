@@ -8,9 +8,13 @@
                 "--std",
                 "c++17",
                 "-g",
-                "${file}",
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic",
+                "${workspaceFolder}/**.cpp",
+                "${workspaceFolder}/**.h",
                 "-o",
-                "${fileDirname}/build/${fileBasenameNoExtension}"
+                "${workspaceFolder}/build/${fileBasenameNoExtension}"
             ],
             "options": {
                 "cwd": "${workspaceFolder}"
