@@ -14,7 +14,8 @@
                 "${workspaceFolder}/**.cpp",
                 "${workspaceFolder}/**.h",
                 "-o",
-                "${workspaceFolder}/build/${fileBasenameNoExtension}"
+                "${workspaceFolder}/build/${fileBasenameNoExtension}",
+                "-pthread" //This is mandatory to be able to use threads
             ],
             "options": {
                 "cwd": "${workspaceFolder}"

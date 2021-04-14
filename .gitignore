@@ -3,7 +3,6 @@
 cmake-build*
 build/
 
-.vscode/*
 CMakeCache.txt
 CMakeFiles/
 DroneController.cbp
