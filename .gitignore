@@ -5,11 +5,5 @@ build/
 
 CMakeCache.txt
 CMakeFiles/
-DroneController.cbp
 Makefile
 cmake_install.cmake
-.directory./html
-./latex
-html
-
-venv/
